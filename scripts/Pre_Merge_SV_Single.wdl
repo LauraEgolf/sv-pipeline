@@ -50,7 +50,7 @@ workflow Pre_Merge_SV_Single {
   output {
     File cram_index = Pre_Merge_SV_Per_Sample.cram_index
     File manta_vcf = Pre_Merge_SV_Per_Sample.manta_vcf
-    File manta_tbi = Pre_Merge_SV_Per_Sample.manta_tbi
+    #File manta_tbi = Pre_Merge_SV_Per_Sample.manta_tbi
     File manta_original_vcf = Pre_Merge_SV_Per_Sample.manta_original_vcf
     File manta_original_tbi = Pre_Merge_SV_Per_Sample.manta_original_tbi
     File cnvnator_cn_hist_root = Pre_Merge_SV_Per_Sample.cnvnator_cn_hist_root
